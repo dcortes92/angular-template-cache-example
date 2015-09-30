@@ -12,5 +12,8 @@
     "cache"
   ],
   "author": "Daniel Cortes",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-install": "^0.5.0"
+  }
 }
