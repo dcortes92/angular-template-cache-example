@@ -4,11 +4,11 @@ var templateApp = angular.module("templateApp", ["ngRoute"]);
 templateApp.config(function ($routeProvider) {
 	$routeProvider
 		.when("/", {
-			template: "this is the main view {{ctrl.message}}",
+			templateUrl: "partials/main.html",
 			controller: "mainCtrl as ctrl"
 		})
 		.when("/other", {
-			template: "this is the other view {{ctrl.message}}",
+			templateUrl: "partials/other.html",
 			controller: "otherCtrl as ctrl"
 		})
 		.otherwise({redirectTo: "/"});
