@@ -1,0 +1,16 @@
+{
+  "name": "templating",
+  "version": "1.0.0",
+  "description": "Basic example on how to use angular's $templateCache utilty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angularjs",
+    "template",
+    "cache"
+  ],
+  "author": "Daniel Cortes",
+  "license": "MIT"
+}
