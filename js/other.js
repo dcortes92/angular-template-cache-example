@@ -1,3 +1,10 @@
 templateApp.controller("otherCtrl", function () {
-	this.message = "I'm in the other controller";
+	this.formData = {
+		name: "",
+		lastname: ""
+	};
+	
+	this.submitForm = function (data) {
+		alert("Form submitted with " + data.name + " " + data.lastname);
+	}
 });
