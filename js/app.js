@@ -4,7 +4,7 @@ var templateApp = angular.module("templateApp", ["ngRoute"]);
 templateApp.config(function ($routeProvider) {
 	$routeProvider
 		.when("/", {
-			templateUrl: "main.html",
+			templateUrl: "partials/main.html",
 			controller: "mainCtrl as ctrl"
 		})
 		.when("/other", {
