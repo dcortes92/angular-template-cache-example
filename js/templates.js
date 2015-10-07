@@ -1,0 +1,2 @@
+angular.module("templateApp").run(["$templateCache", function($templateCache) {$templateCache.put("main.html","<div>This is the main view</div>");
+$templateCache.put("other.html","<form ng-submit=\"ctrl.submitForm(ctrl.formData)\">\n	Name: <input type=\"text\" ng-model=\"ctrl.formData.name\" required><br/>\n	Last name: <input type=\"text\" ng-model=\"ctrl.formData.lastname\" required><br/>\n	<input type=\"submit\" value=\"Submit\">\n</form>\n<pre>\n	{{ctrl.formData}}\n</pre>");}]);
